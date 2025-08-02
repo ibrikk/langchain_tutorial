@@ -1,0 +1,39 @@
+# Ignore environment and secrets
+.env
+
+# Ignore Miniconda installer
+Miniconda3-latest-MacOSX-x86_64.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments
+*.conda
+*.yaml
+*.yml
+
+# Mac system files
+.DS_Store
+.env
+Miniconda3-latest-MacOSX-x86_64.sh
