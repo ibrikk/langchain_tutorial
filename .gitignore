@@ -44,11 +44,12 @@ Miniconda3-latest-MacOSX-x86_64.sh
 **/chroma/**
 
 # (optional) common vector index artifacts — use only if you want broad ignores
-# *.faiss
-# *.hnsw
-# *.bin
-# *.pq
-# *.index
-# *.sqlite*
-# *.parquet
+*.faiss
+*.hnsw
+*.bin
+*.pq
+*.index
+*.sqlite*
+*.parquet
+
 
