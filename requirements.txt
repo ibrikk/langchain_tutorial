@@ -3,6 +3,7 @@ ipykernel
 python-dotenv
 langchain-openai
 chromadb
+langchain_chroma
 langchain-community
 pypdf
 bs4
