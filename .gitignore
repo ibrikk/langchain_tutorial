@@ -16,6 +16,9 @@ dist/
 build/
 *.log
 
+1-Langchain/Vector-Store/chroma_db2/
+
+
 # Jupyter notebooks checkpoint files
 .ipynb_checkpoints/
 
