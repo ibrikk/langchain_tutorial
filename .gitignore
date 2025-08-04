@@ -37,3 +37,18 @@ ENV/
 .DS_Store
 .env
 Miniconda3-latest-MacOSX-x86_64.sh
+
+# Chroma / vector-store artifacts
+1-Langchain/Vector-Store/chroma_db2/
+**/chroma_db*/
+**/chroma/**
+
+# (optional) common vector index artifacts — use only if you want broad ignores
+# *.faiss
+# *.hnsw
+# *.bin
+# *.pq
+# *.index
+# *.sqlite*
+# *.parquet
+
