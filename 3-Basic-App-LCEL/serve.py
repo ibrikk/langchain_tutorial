@@ -6,8 +6,6 @@ from langchain_groq import ChatGroq
 import os
 from langserve import add_routes
 from dotenv import load_dotenv
-from pydantic import BaseModel
-from fastapi.routing import APIRoute
 
 
 load_dotenv()
@@ -23,12 +21,6 @@ prompt_template = ChatPromptTemplate.from_messages([
 ])
 
 parser = StrOutputParser()
-
-# Define input schema for the chain
-class TranslationInput(BaseModel):
-    language: str
-    text: str
-
 
 # create chain
 chain = prompt_template | model | parser
