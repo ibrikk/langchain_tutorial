@@ -1,10 +1,17 @@
 langchain
 ipykernel
 python-dotenv
+pydantic==2.10.6
 langchain-openai
 chromadb
 langchain_chroma
 langchain-community
+langchain-groq
+langchain_core
+langserve
+sse_starlette
+fastapi
+uvicorn
 pypdf
 bs4
 arxiv
