@@ -10,8 +10,8 @@ class Config:
         return self.config["DEFAULT"].get("LLM_OPTIONS")
     
     def get_usecase_options(self):
-        # print(self.config["DEFAULT"].get("USECASE_OPTIONS"))
-        return self.config["DEFAULT"].get("USECASE_OPTIONS")
+        # print(self.config["DEFAULT"].get("USECASE_OPTIONS").split(", "))
+        return self.config["DEFAULT"].get("USECASE_OPTIONS").split(", ")
     
     def get_groq_model_options(self):
         # print(self.config["DEFAULT"].get("GROQ_MODEL_OPTIONS").split(", "))
