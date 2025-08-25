@@ -55,7 +55,7 @@ class AINewsNode:
     def save_result(self, state):
         frequency = self.state["frequency"]
         summary = self.state["summary"]
-        filename = f"../../AINews/{frequency}_summary.md"
+        filename = f"/Users/ibrahimkhalilov/Documents/langchain_tutorial/Project-1-Langgraph-Clone/src/AINews/{frequency}_summary.md"
         with open(filename, 'w') as f:
             f.write(f"# {frequency.capitalize()} AI News Summary\n\n")
             f.write(summary)
