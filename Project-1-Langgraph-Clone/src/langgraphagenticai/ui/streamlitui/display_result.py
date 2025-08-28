@@ -42,12 +42,10 @@ class DisplayResultStreamlit:
         
         elif usecase == "AI News":
             frequency = self.user_message
-            print("GOT FREQUENCY UPDATE HERE")
             with st.spinner("Fetching and summarizing news... ⏳"):
                 result = graph.invoke({"messages": frequency})
-                print("ISSUES AFTER THIS")
                 try:
-                    AI_NEWS_PATH = f"./AINews/{frequency.lower()}_summary.md"
+                    AI_NEWS_PATH = f"Project-1-Langgraph-Clone/src/AINews/{frequency.lower()}_summary.md"
                     with open(AI_NEWS_PATH, "r") as file:
                         markdown_content = file.read()
 
