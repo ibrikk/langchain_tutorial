@@ -6,7 +6,7 @@ from mcp.client.streamable_http import streamablehttp_client
 
 # Construct server URL with authentication
 base_url = "https://server.smithery.ai/@meowhuman/weather/mcp"
-params = {"api_key": "eb788121-fd30-4502-8768-3b32d2719f47"}
+params = {"api_key": ""}
 url = f"{base_url}?{urlencode(params)}"
 
 async def main():
